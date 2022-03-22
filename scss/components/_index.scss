@@ -1,0 +1,25 @@
+/*INDEX CAROUSEL SECTION*/
+
+.carousel__mbt__col, .row{
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+.carousel-inner{
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+/*INDEX FLOTA SECTION*/
+.flota__img{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	margin: 20px;
+	border-radius: 20px;
+	border: 2px solid get-map($colores, principal) !important;
+	box-shadow: 0px 5px 15px #0000006e;
+}

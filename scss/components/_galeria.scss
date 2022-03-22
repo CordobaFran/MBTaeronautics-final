@@ -1,0 +1,9 @@
+@mixin images($width,$height){
+	height:$height;
+	width: $width;
+}
+
+.img__galery img{
+	@include images(300px, 300px);
+	object-fit: cover;
+}

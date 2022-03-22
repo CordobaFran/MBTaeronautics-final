@@ -1,0 +1,27 @@
+/*SECTION LINE*/
+
+.section__line{
+	border-top: 2px solid map-get($colores, principal);
+	}
+
+.footer__line{
+	border-top: 1px solid gray;
+	width: 100%
+	}
+
+/*FONT*/
+
+.article__title{
+	text-shadow: $shadowTitle;
+}
+
+p{	color: black;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+.copyright{
+	@extend p;
+	font-size: 0.8rem;
+}
+

@@ -1,0 +1,57 @@
+.container-fluid{
+	padding-right: 0; 
+	padding-left: 0;
+}
+
+.nav__img__logo{
+	max-width: 100px;
+	height: auto;
+}
+
+.header__user__img{
+	max-width: 50px;
+	height: auto;
+	margin: 10px;
+}
+
+nav{
+	background-image: map-get($colores, navbarColor);
+	box-shadow: $shadow;
+	z-index: 2;
+}
+
+.navbar-light .navbar-nav{
+	.nav-link{
+		color: map-get($colores, navbarText);
+			&:hover{
+				color: map-get($colores, navbarText);
+			}
+	}
+	.nav-link.active{
+				color: map-get($colores, navbarText);
+	   			background-color: #00000000;
+			    border-color: #dee2e6 #dee2e6 #fff;
+			    font-weight: bold;
+	}
+
+	.show>.nav-link{
+		color: map-get($colores, navbarText);
+	}
+}
+.dropdown-menu.show {
+    background-color: map-get($colores, principal);
+}
+
+.dropdown-item{
+		color: map-get($colores, navbarText);
+		background-color: map-get($colores, principal);
+	}
+
+.nav-tabs{
+	.nav-item.show .nav-link{
+		background-color: map-get($colores, principal);
+	}
+	.nav-link.active{
+		background-color: map-get($colores, principal);
+	}
+}
