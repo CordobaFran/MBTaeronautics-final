@@ -93,6 +93,6 @@ nav {
   height: 200px; }
 
 .img__galery img {
-  height: 300px;
+  min-height: 220px;
   width: 300px;
   object-fit: cover; }
