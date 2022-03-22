@@ -1,6 +1,7 @@
 /*SECTION LINE*/
 .section__line {
-  border-top: 2px solid #3e618c; }
+  border-top: 2px solid #3e618c;
+  width: 100%; }
 
 .footer__line {
   border-top: 1px solid gray;
